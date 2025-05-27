@@ -1,7 +1,7 @@
 # Telomere_analyzer
 One-stop telomere analysis
 
-# Many thanks to Cluade4 and jamiemcg
+## Many thanks to Cluade4 and jamiemcg
 This script was cloned from https://github.com/jamiemcg/TelomereSearch and modified and optimized by claude4.
 
 ```
