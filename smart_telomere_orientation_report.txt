@@ -1,0 +1,161 @@
+Smart Telomere Orientation Analysis Report
+Generated: 2025-05-27 13:45:06
+============================================================
+
+ORIENTATION SUMMARY:
+Total sequences analyzed: 33
+Likely reversed sequences: 3
+High-confidence reversals: 3
+Mixed pattern sequences: 21
+
+HIGH-CONFIDENCE REVERSED SEQUENCES:
+----------------------------------------
+Sequence: chr19
+Length: 35.70 Mb
+Confidence: 0.80
+Evidence: Strong evidence for reversed orientation based on pattern distribution
+Suggested action: reverse_complement
+Pattern details: Start=reverse, End=mixed
+
+Sequence: chr11
+Length: 32.56 Mb
+Confidence: 0.80
+Evidence: Strong evidence for reversed orientation based on pattern distribution
+Suggested action: reverse_complement
+Pattern details: Start=mixed, End=mixed
+
+Sequence: scaffold32
+Length: 0.52 Mb
+Confidence: 0.80
+Evidence: Strong evidence for reversed orientation based on pattern distribution
+Suggested action: reverse_complement
+Pattern details: Start=mixed, End=mixed
+
+SEQUENCES WITH MIXED PATTERNS:
+----------------------------------------
+Sequence: chr8
+Length: 50.67 Mb
+Start pattern: forward
+End pattern: mixed
+Evidence: {'start_forward_count': 828, 'start_reverse_count': 0, 'end_forward_count': 17, 'end_reverse_count': 16, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has forward, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: chr12
+Length: 37.46 Mb
+Start pattern: forward
+End pattern: mixed
+Evidence: {'start_forward_count': 833, 'start_reverse_count': 0, 'end_forward_count': 13, 'end_reverse_count': 10, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has forward, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: chr17
+Length: 35.87 Mb
+Start pattern: forward
+End pattern: mixed
+Evidence: {'start_forward_count': 823, 'start_reverse_count': 0, 'end_forward_count': 23, 'end_reverse_count': 14, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has forward, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: chr22
+Length: 35.77 Mb
+Start pattern: mixed
+End pattern: reverse
+Evidence: {'start_forward_count': 29, 'start_reverse_count': 52, 'end_forward_count': 0, 'end_reverse_count': 814, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has reverse', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: chr19
+Length: 35.70 Mb
+Start pattern: reverse
+End pattern: mixed
+Evidence: {'start_forward_count': 10, 'start_reverse_count': 32, 'end_forward_count': 15, 'end_reverse_count': 11, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has reverse, End has mixed', 'reasoning': 'Strong evidence for reversed orientation based on pattern distribution', 'start_used_reversed': True, 'end_used_reversed': True}
+
+Sequence: chr13
+Length: 35.61 Mb
+Start pattern: mixed
+End pattern: reverse
+Evidence: {'start_forward_count': 21, 'start_reverse_count': 28, 'end_forward_count': 0, 'end_reverse_count': 824, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has reverse', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: chr11
+Length: 32.56 Mb
+Start pattern: mixed
+End pattern: mixed
+Evidence: {'start_forward_count': 28, 'start_reverse_count': 56, 'end_forward_count': 25, 'end_reverse_count': 14, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has mixed', 'reasoning': 'Strong evidence for reversed orientation based on pattern distribution', 'start_used_reversed': True, 'end_used_reversed': True}
+
+Sequence: chr10
+Length: 27.60 Mb
+Start pattern: forward
+End pattern: mixed
+Evidence: {'start_forward_count': 809, 'start_reverse_count': 0, 'end_forward_count': 6, 'end_reverse_count': 11, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has forward, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: chr1
+Length: 26.61 Mb
+Start pattern: mixed
+End pattern: reverse
+Evidence: {'start_forward_count': 16, 'start_reverse_count': 21, 'end_forward_count': 0, 'end_reverse_count': 817, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has reverse', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: chr7
+Length: 26.34 Mb
+Start pattern: forward
+End pattern: mixed
+Evidence: {'start_forward_count': 827, 'start_reverse_count': 0, 'end_forward_count': 46, 'end_reverse_count': 29, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has forward, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: chr18
+Length: 26.24 Mb
+Start pattern: mixed
+End pattern: reverse
+Evidence: {'start_forward_count': 19, 'start_reverse_count': 15, 'end_forward_count': 0, 'end_reverse_count': 814, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has reverse', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold31
+Length: 3.17 Mb
+Start pattern: reverse
+End pattern: mixed
+Evidence: {'start_forward_count': 4, 'start_reverse_count': 10, 'end_forward_count': 8, 'end_reverse_count': 15, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has reverse, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold25
+Length: 3.01 Mb
+Start pattern: mixed
+End pattern: mixed
+Evidence: {'start_forward_count': 12, 'start_reverse_count': 16, 'end_forward_count': 12, 'end_reverse_count': 23, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold30
+Length: 2.48 Mb
+Start pattern: mixed
+End pattern: mixed
+Evidence: {'start_forward_count': 19, 'start_reverse_count': 12, 'end_forward_count': 16, 'end_reverse_count': 22, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold26
+Length: 2.05 Mb
+Start pattern: mixed
+End pattern: forward
+Evidence: {'start_forward_count': 12, 'start_reverse_count': 7, 'end_forward_count': 10, 'end_reverse_count': 0, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has forward', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold33
+Length: 1.98 Mb
+Start pattern: mixed
+End pattern: mixed
+Evidence: {'start_forward_count': 22, 'start_reverse_count': 22, 'end_forward_count': 19, 'end_reverse_count': 27, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold29
+Length: 1.82 Mb
+Start pattern: reverse
+End pattern: mixed
+Evidence: {'start_forward_count': 10, 'start_reverse_count': 25, 'end_forward_count': 17, 'end_reverse_count': 18, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has reverse, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold27
+Length: 1.74 Mb
+Start pattern: mixed
+End pattern: mixed
+Evidence: {'start_forward_count': 15, 'start_reverse_count': 10, 'end_forward_count': 16, 'end_reverse_count': 18, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold28
+Length: 1.61 Mb
+Start pattern: mixed
+End pattern: mixed
+Evidence: {'start_forward_count': 14, 'start_reverse_count': 14, 'end_forward_count': 11, 'end_reverse_count': 14, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
+Sequence: scaffold32
+Length: 0.52 Mb
+Start pattern: mixed
+End pattern: mixed
+Evidence: {'start_forward_count': 12, 'start_reverse_count': 19, 'end_forward_count': 21, 'end_reverse_count': 17, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has mixed', 'reasoning': 'Strong evidence for reversed orientation based on pattern distribution', 'start_used_reversed': True, 'end_used_reversed': True}
+
+Sequence: scaffold24
+Length: 0.03 Mb
+Start pattern: mixed
+End pattern: mixed
+Evidence: {'start_forward_count': 30, 'start_reverse_count': 43, 'end_forward_count': 26, 'end_reverse_count': 41, 'expected_pattern': 'Start should have CCCTAA, End should have TTAGGG', 'observed_pattern': 'Start has mixed, End has mixed', 'reasoning': 'Mixed patterns detected - possible assembly errors or complex genomic structures'}
+
