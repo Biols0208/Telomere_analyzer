@@ -4,6 +4,41 @@ One-stop telomere analysis
 ## Many thanks to Cluade4 and jamiemcg
 This script was cloned from https://github.com/jamiemcg/TelomereSearch and modified and optimized by claude4.
 
+
+## Quickly check chromosome orientation
+```
+python smart_telomere_detector.py -h
+usage: smart_telomere_detector.py [-h] -i INPUT [-o OUTPUT] [-s {vertebrate,invertebrate_ttaggg}] [-l LENGTH] [-m MIN_COPIES] [-t THRESHOLD] [-p PROCESSES]
+                                  [--check-orientation] [--no-orientation-check] [--orientation-report] [--verbose]
+
+Smart Telomere Detector v2.2 - Handles orientation issues
+
+options:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        Input genome FASTA file
+  -o OUTPUT, --output OUTPUT
+                        Output prefix
+  -s {vertebrate,invertebrate_ttaggg}, --species {vertebrate,invertebrate_ttaggg}
+                        Species telomere pattern
+  -l LENGTH, --length LENGTH
+                        Window size (bp)
+  -m MIN_COPIES, --min_copies MIN_COPIES
+                        Min repeat copies
+  -t THRESHOLD, --threshold THRESHOLD
+                        Threshold (0.0-1.0)
+  -p PROCESSES, --processes PROCESSES
+                        Parallel processes
+  --check-orientation   Enable orientation checking (default: True)
+  --no-orientation-check
+                        Disable orientation checking
+  --orientation-report  Generate detailed orientation analysis report
+  --verbose             Verbose logging
+
+```
+
+
+## Telomere identification and mapping
 ```
 python telomere_analyzer.py -h
 usage: telomere_analyzer -i INPUT [-o OUTPUT] [-s SPECIES] [-l LENGTH] [-m MIN_COPIES] [-t THRESHOLD] [-p PROCESSES] [--custom-forward CUSTOM_FORWARD]
