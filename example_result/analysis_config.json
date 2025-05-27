@@ -1,0 +1,23 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-05-27T13:01:51.661260",
+    "user": "Biols9527",
+    "version": "2.1"
+  },
+  "input_parameters": {
+    "input_file": "Stichopus_variegatus.fa",
+    "species_pattern": "invertebrate_ttaggg",
+    "window_size": 5000,
+    "threshold": null,
+    "min_copies": 50,
+    "processes": 1
+  },
+  "telomere_patterns": {
+    "forward_pattern": "C{2,4}T{1,2}A{1,3}",
+    "reverse_pattern": "T{1,3}A{1,2}G{2,4}",
+    "canonical_forward": "CCCTAA",
+    "canonical_reverse": "TTAGGG",
+    "description": "Invertebrate TTAGGG-type telomeres (sea cucumber, sea urchin, echinoderms)",
+    "is_custom": false
+  }
+}
