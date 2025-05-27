@@ -1,0 +1,18 @@
+Telomere Analysis Summary Report
+Generated: 2025-05-27 13:03:14
+User: Biols9527
+==================================================
+
+Input File: Stichopus_variegatus.fa
+Analysis Type: Predefined Pattern
+Species Pattern: invertebrate_ttaggg
+Window Size: 5000 bp
+Detection Criterion: Min copies: 50
+
+RESULTS SUMMARY:
+Total sequences: 33
+Complete telomeres: 9 (27.3%)
+Partial telomeres: 12 (36.4%)
+High-quality telomeres: 25 (75.8%)
+Major chromosomes (>10Mb): 23
+Major chromosomes with complete telomeres: 9
